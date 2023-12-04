@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Button</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo&family=Oswald&family=Oxygen:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        button {
+            box-shadow: 0 0 5px cyan;
+            background-color: cyan;
+            border: none;
+            display: block;
+            height: 5vh;
+            width: 8vw;
+            margin: auto;
+            font-size: 0.9rem;
+            font-family: 'Oxygen',sans-serif;
+        }
+        button:hover {
+            box-shadow: 0 0 5px cyan,
+                0 0 25px cyan, 0 0 50px cyan,
+                0 0 100px cyan, 0 0 200px cyan;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <button><a href="#">Click Me</a></button>
+</body>
+
+</html>
